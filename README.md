@@ -35,9 +35,9 @@ ajánlani jobb css-t vagy akár html markup javításokat, stb.. (tenni #2)
 
 Két lépésben építheted be egy honlapba (így nem kell bookmarklet-et nyomogatni):
 
-1. A weboldalnak a <head> és </head> részei közé másold a következő két sort:
-<script type="text/javascript" src="igezopopup.js"></script>
-<script type="text/javascript" src="reforbit.js"> </script>
+1. A weboldalnak a &lt;head&gt; és &lt;/head&gt; részei közé másold a következő két sort:
+&lt;script type="text/javascript" src="igezopopup.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="reforbit.js"&gt; &lt;/script&gt;
 Ezt a beágyazását a népszerűbb tartalomkezelőkben a következő helyen találod:
 Wordpress/wp-content/themes/sablon/header.php
 Joomla/templates/sablon/index.php
