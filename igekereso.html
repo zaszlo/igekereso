@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>igekeresõ</title>
+    <base target="_blank"/>
+    <link rel="stylesheet" type="text/css"
+      href="igekereso_alap.css"/>
+    <style type="text/css">
+      body {
+        background-color: #f0efea;
+        border: none;
+        font-family: Arial, sans-serif;
+        font-size: 75%;
+        height: 100%;
+        overflow: auto;
+	margin:0px;
+	padding:0px;
+      }
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+      body {
+        border: #888 solid 1px;
+      }
+    </style>
+    <![endif]-->
+    <!--[if IE 7]>
+    <style type="text/css">
+      html {
+        height: 100%;
+      }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div id="container">
+      <script type="text/javascript">
+        //<![CDATA[
+        var igehely = window.location.href.indexOf('?igehely=');
+        if (igehely)
+          igehely = '&' + window.location.href.substr(igehely + 1);
+        else
+          igehely = '';
+        var html = '<iframe name="tart" id="tart" src="http://biblia.reformatus.net/igekereso.php?v=KAR' + igehely + '"></iframe>';
+        document.write(html);
+        //]]>
+      </script>
+    </div>
+  </body>
+</html>
